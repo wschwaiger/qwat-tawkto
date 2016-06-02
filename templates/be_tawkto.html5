@@ -1,0 +1,31 @@
+<?php
+
+/**
+ * To use this script, please fill in your tawk.to url below
+ */
+$TawkToUrl = 'https://embed.tawk.to/XXXXXXXXXXXXXXX/YYYY';
+
+
+/**
+ * DO NOT EDIT ANYTHING BELOW THIS LINE UNLESS YOU KNOW WHAT YOU ARE DOING!
+ */
+if ($TawkToUrl != 'https://embed.tawk.to/XXXXXXXXXXXXXXX/YYYY'): ?>
+
+
+<!--Start of Tawk.to Script-->
+<script type="text/javascript">
+    var Tawk_API = Tawk_API || {},
+        Tawk_LoadStart = new Date();
+    (function () {
+        var s1 = document.createElement("script"),
+            s0 = document.getElementsByTagName("script")[0];
+        s1.async = true;
+        s1.src = '<?= $TawkToUrl ?>';
+        s1.charset = 'UTF-8';
+        s1.setAttribute('crossorigin', '*');
+        s0.parentNode.insertBefore(s1, s0);
+    })();
+</script>
+<!--End of Tawk.to Script-->
+
+<?php endif; ?>
