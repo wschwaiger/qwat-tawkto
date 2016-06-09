@@ -12,7 +12,7 @@
  */
 
 define(TAWKTO_VERSION, '1.0.0');
-define(TAWKTO_PATH, 'system/modules/tawk.to');
+define(TAWKTO_PATH, 'system/modules/tawkto');
 
 /**
  * BACK END MODULES
