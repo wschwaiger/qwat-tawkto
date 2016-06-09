@@ -27,8 +27,8 @@ ClassLoader::addNamespaces(array
 ClassLoader::addClasses(array
 (
 	// Classes
-	'TawkTo\BackendTawkTo' => 'system/modules/tawk.to/classes/BackendTawkTo.php',
-    'TawkTo\FrontendTawkTo' => 'system/modules/tawk.to/classes/FrontendTawkTo.php',
+	'TawkTo\BackendTawkTo' => 'system/modules/tawkto/classes/BackendTawkTo.php',
+	'TawkTo\FrontendTawkTo' => 'system/modules/tawkto/classes/FrontendTawkTo.php',
 ));
 
 
@@ -37,6 +37,6 @@ ClassLoader::addClasses(array
  */
 TemplateLoader::addFiles(array
 (
-	'be_tawkto' => 'system/modules/tawk.to/templates',
-    'tawkto_default' => 'system/modules/tawk.to/templates',
+	'be_tawkto' => 'system/modules/tawkto/templates',
+	'tawkto_default' => 'system/modules/tawkto/templates',
 ));
