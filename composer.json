@@ -16,7 +16,7 @@
         "contao-community-alliance/composer-plugin": "2.*"
     },
     "replace": {
-        "contao-legacy/tawk.to": "self.version"
+        "contao-legacy/tawkto": "self.version"
     },
     "extra": {
         "contao": {
