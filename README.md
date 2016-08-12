@@ -13,4 +13,5 @@ Don't forget to activate where you want to use the chat under **System->Settings
 ## Any other issues or trouble shooting
 Just go to https://github.com/wschwaiger/qwat-tawkto/issues and let us know what is missing or not working.
 
-## Help us to keep this extension alive - [Donate via PayPal](https://www.paypal.com/webapps/mpp/send-money-online)
+## Help us to keep this extension alive - [Donate via PayPal](https://www.paypal.me/wschwaiger)
+
