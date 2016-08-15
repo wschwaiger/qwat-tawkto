@@ -11,8 +11,8 @@
  * @copyright quality work | clever.simple.effective
  */
 
-define(TAWKTO_VERSION, '1.0.0');
-define(TAWKTO_PATH, 'system/modules/tawkto');
+define(TAWKTO_VERSION, '1.0.2');
+define(TAWKTO_PATH, 'system/modules/qwat-tawkto');
 
 /**
  * BACK END MODULES
