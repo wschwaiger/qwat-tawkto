@@ -10,7 +10,7 @@ $TawkToUrl = 'https://embed.tawk.to/XXXXXXXXXXXXXXX/YYYY';
  * DO NOT EDIT ANYTHING BELOW THIS LINE UNLESS YOU KNOW WHAT YOU ARE DOING!
  */
 $user = BackendUser::getInstance();
-if ($TawkToUrl != 'https://embed.tawk.to/XXXXXXXXXXXXXXX/YYYY' && $user): ?>
+if ($TawkToUrl != 'https://embed.tawk.to/XXXXXXXXXXXXXXX/YYYY' && $user && !\Input::get('popup')): ?>
 
 <!--Start of Tawk.to Script-->
 <script type="text/javascript">
